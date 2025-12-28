@@ -1,12 +1,48 @@
 metrics:
   Zone2%:
     direction: higher_better
-    green: [60, 100]
+    green: [60, 101]
     yellow: [45, 60]
     red: [0, 45]
 
   HRR1:
     direction: higher_better
-    green: [18, 100]
+    green: [18, 200]
     yellow: [12, 18]
     red: [0, 12]
+
+  RestingHR:
+    direction: lower_better
+    green: [0, 60]
+    yellow: [60, 65]
+    red: [65, 200]
+
+  SleepScore:
+    direction: higher_better
+    green: [80, 101]
+    yellow: [70, 80]
+    red: [0, 70]
+
+  BreathingDist:
+    direction: lower_better
+    green: [0, 10]
+    yellow: [10, 15]
+    red: [15, 9999]
+
+  RespRate:
+    direction: range_best
+    green: [12, 18]
+    yellow: [0, 0]
+    red: [0, 9999]
+
+  Mindful:
+    direction: higher_better
+    green: [10, 9999]
+    yellow: [5, 10]
+    red: [0, 5]
+
+  AlcoholDaily:
+    direction: lower_better
+    green: [0, 1]
+    yellow: [1, 2]
+    red: [2, 99]

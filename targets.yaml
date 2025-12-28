@@ -1,1 +1,12 @@
+metrics:
+  Zone2%:
+    direction: higher_better
+    green: [60, 100]
+    yellow: [45, 60]
+    red: [0, 45]
 
+  HRR1:
+    direction: higher_better
+    green: [18, 100]
+    yellow: [12, 18]
+    red: [0, 12]
